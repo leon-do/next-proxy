@@ -4,12 +4,5 @@
       "source": "/api/graphql",
       "destination": "https://api.uniswap.org/v1/graphql"
     }
-  ],
-  "routes": [
-    {
-      "src": "/api/graphql",
-      "headers": { "Origin": "http://localhost:3000" },
-      "continue": true
-    }
   ]
 }
