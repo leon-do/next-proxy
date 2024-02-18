@@ -8,7 +8,14 @@
   "headers": [
     {
       "source": "/api/graphql",
-      "headers": [{ "key": "origin", "value": "http://localhost:3000" }]
+      "headers": [{ "key": "Origin", "value": "http://localhost:3000" }]
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/graphql",
+      "headers": { "Origin": "http://localhost:3000" },
+      "continue": true
     }
   ]
 }
