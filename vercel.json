@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/graphql",
+      "destination": "https://api.uniswap.org/v1/graphql"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/graphql",
+      "headers": [{ "key": "Origin", "value": "http://localhost:3000" }]
+    }
+  ]
+}
