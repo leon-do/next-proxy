@@ -10,14 +10,6 @@ const nextConfig = {
       },
     ];
   },
-  async headers() {
-    return [
-      {
-        source: "/graphql",
-        headers: [{ key: "Origin", value: "http://localhost:3000" }],
-      },
-    ];
-  },
 };
 
 export default nextConfig;
