@@ -5,7 +5,7 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/api/graphql",
+        source: "/graphql",
         destination: "https://api.uniswap.org/v1/graphql",
       },
     ];
@@ -13,7 +13,7 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: "/api/graphql",
+        source: "/graphql",
         headers: [{ key: "Origin", value: "http://localhost:3000" }],
       },
     ];

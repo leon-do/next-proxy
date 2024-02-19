@@ -15,8 +15,5 @@
         }
       ]
     }
-  ],
-  "redirects": [
-    { "source": "/me", "destination": "https://youtube.com", "permanent": false }
   ]
 }
